@@ -1,0 +1,33 @@
+html {
+    overflow: hidden;
+}
+
+body {
+  background-color: black;  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+canvas {
+  position: absolute;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.announcement {
+  text-align: center;
+  color: white;
+  
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(13, 13, 15, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+
+  padding: 10vh;
+}
